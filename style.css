@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F8F6F0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.card-container {
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 380px;
+    padding: 40px 25px;
+    border-radius: 24px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #A48B7A;
+    padding: 4px; 
+    margin-bottom: 15px;
+}
+
+.name {
+    color: #2C2C2C;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.title {
+    color: #7A7A7A;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.link-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    background-color: #F4F4F4;
+    color: #333;
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.link-btn:hover {
+    background-color: #E8E8E8;
+    transform: translateY(-2px); 
+}
+
+.primary-btn {
+    background-color: #A48B7A; 
+    color: #FFFFFF;
+}
+
+.primary-btn:hover {
+    background-color: #8C7565; 
+    color: #FFFFFF;
+}
+
+.link-btn i {
+    font-size: 18px;
+}
